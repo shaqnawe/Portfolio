@@ -83,8 +83,8 @@ const Technologies = () => (
       <ListItem>
         <Span>
           <DiGit size="3rem" />
-          <SiPostman size="2.4rem" />
           <GrDocker size="2.4rem" />
+          <SiPostman size="2.4rem" />
           <SiFigma size="2.4rem" />
           <DiHeroku size="3rem" />
           <SiNetlify size="2.4rem" />
