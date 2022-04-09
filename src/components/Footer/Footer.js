@@ -1,8 +1,20 @@
-import React from 'react';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
-import { SectionTitle, SectionDivider } from '../../styles/GlobalComponents';
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import Link from "next/link";
+import React from "react";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaAngleUp } from "react-icons/fa";
+import { SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -36,6 +48,18 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+      <Link href="#home">
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            color: "white"
+          }}
+        >
+          <FaAngleUp size="3rem" />
+        </a>
+      </Link>
     </FooterWrapper>
   );
 };
