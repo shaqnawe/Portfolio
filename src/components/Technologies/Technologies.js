@@ -65,11 +65,11 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <Span>
-          <SiPostgresql size="2.4rem" />
-          <SiFirebase size="2.4rem" />
-          <SiFlask size="2.4rem" />
           <DiNodejs size="3rem" />
+          <SiFlask size="2.4rem" />
+          <SiFirebase size="2.4rem" />
           <DiMongodb size="3rem" />
+          <SiPostgresql size="2.4rem" />
         </Span>
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
