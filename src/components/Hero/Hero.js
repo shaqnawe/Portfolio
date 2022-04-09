@@ -26,7 +26,7 @@ const Hero = (props) => (
       <Button
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/1CdDxRqqe22w_WHkpLXWsQQWT-ZI9RyiE/view?usp=sharing"
+            "https://drive.google.com/file/d/1yicIi3zhjcpWVhNhRLAKMDoeOv60BLFS/view?usp=sharing"
           )
         }
       >
