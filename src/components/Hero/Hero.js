@@ -20,7 +20,7 @@ const Hero = (props) => (
         click-clacking away at a new snippet of code, you'll find me enjoying
         walks with my dog Mac, checking out local breweries, playing chess or
         looking for new local tacos spots. I'm always open to any new
-        oppurtunity. Please take a look at my resume and my development
+        opportunity. Please take a look at my resume and my development
         projects, as well as my GitHub and LinkedIn.
       </SectionText>
       <Button
