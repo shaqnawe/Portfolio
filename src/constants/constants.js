@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "MERN: Traveller",
+    title: "MERN: Memories",
     description:
-      "Using React, Node.js, Express & MongoDB built a travel logger web app. Users can add places and add their experiences in description and add an image for the palce they visited.",
-    image: "/images/Traveller.jpeg",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://github.com/shaqnawe/Traveller",
-    visit: "https://mern-traveller-21375.web.app/",
+      "Using React, Node.js, Express, MongoDB & Redux for application wide state management, developed a memory logger Web App. Users can add places along with a picture and a description of their experiences for the place. Authenticated users are able to post memories and also comment on their or others' posts.",
+    image: "/images/memories.jpeg",
+    tags: ["Mongo", "Express", "React", "Node", "Redux"],
+    source: "https://github.com/shaqnawe/Memories",
+    visit: "https://mern-memories-2022.netlify.app/posts",
     id: 0,
   },
   {
